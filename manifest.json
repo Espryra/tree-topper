@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Tree Topper",
+    "description": "A tree topper add-on made by Espryra.",
+    "min_engine_version": [1, 26, 65],
+    "uuid": "1e07d440-94e2-4ccf-bcb3-fd42b96423c5",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "2f10e8b5-9476-4f6a-93cd-449d052a0706",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "3ac104cf-039e-472a-abfd-ba757890baf5",
+      "entry": "scripts/Main.js",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [{ "module_name": "@minecraft/server", "version": "2.11.0" }]
+}
