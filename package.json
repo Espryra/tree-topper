@@ -11,6 +11,6 @@
   "scripts": {
     "compile": "bun build src/Main.ts --outfile scripts/Main.js --target bun --external \"@minecraft/*\" --minify",
     "watch": "bun run compile --watch",
-    "build": "bun run compile && bestzip vein-miner.mcpack scripts manifest.json"
+    "build": "bun run compile && bestzip tree-topper.mcpack scripts manifest.json"
   }
 }
